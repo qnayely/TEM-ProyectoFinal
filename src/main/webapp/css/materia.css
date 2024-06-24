@@ -1,0 +1,43 @@
+
+.content {
+    text-align: center; /* Centrar el contenido horizontalmente */
+}
+
+.container {
+    display: inline-block; /* Hacemos que el contenedor sea en línea para centrarlo */
+    text-align: left; /* Alineamos el texto a la izquierda dentro del contenedor */
+    padding: 20px;
+}
+
+.materias {
+    display: flex; /* Utilizamos flexbox para organizar las materias */
+    flex-wrap: wrap; /* Permitimos que las materias se envuelvan a una nueva línea si no caben */
+    justify-content: center; /* Centramos las materias horizontalmente */
+    gap: 50px; /* Espacio entre las materias */
+    
+}
+
+.materia {
+    width: 250px;
+    height: 150px; /* Ancho de las materias (50% del contenedor menos el espacio entre ellas) */
+    margin-bottom: 30px; /* Espacio inferior entre cada materia */
+    text-align: center; /* Centramos el contenido de las materias */
+}
+
+.materia img {
+    width: 200px; /* Ancho automático */
+    height: 150px; /* Altura automática */
+    max-width: 100%; /* Ancho máximo del 100% del contenedor */
+    max-height: 100%; /* Altura máxima del 100% del contenedor */
+    margin-bottom: 0px; /* Espacio inferior */
+}
+
+.materia a {
+    color: #000; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: block; /* Mostrar como bloque */
+}
+
+.materia a:hover {
+    text-decoration: none; /* Sin subrayado en hover */
+}

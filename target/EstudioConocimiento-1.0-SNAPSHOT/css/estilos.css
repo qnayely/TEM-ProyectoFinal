@@ -1,0 +1,29 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Times New Roman', serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    width: calc(100% - 250px); /* Ajusta el ancho restando el ancho de la barra lateral */
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+    font-size: 1.5rem;
+}
+
+.navbar {
+    margin: 0;
+    width: 100%;
+}
+

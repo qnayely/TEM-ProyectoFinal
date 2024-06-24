@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Opcional: ajusta la altura al 100% del viewport */
+}
+
+
+.form-container {
+    max-width: 400px; /* Ancho máximo del formulario para controlar su tamaño */
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f9fa; /* Color de fondo opcional para el contenedor del formulario */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra para el contenedor */
+}
+
+.form-group {
+    text-align: center; /* Alinea el contenido del grupo de formulario al centro */
+    margin-bottom: 10px; /* Espacio entre grupos de formulario */
+}
+
+.form-control {
+    width: 100%; /* Ancho completo del input */
+}
+
+.tab{
+    border-collapse: separate; /* Asegura que se vea el espaciado */
+    border-spacing: 10px; /* Espacio entre columnas */
+}
+
+.bt{
+    margin-top: 0px;
+    margin-left: 125px;
+}
+
